@@ -49,3 +49,9 @@ button.btn {
         padding: 42px;
     }
 }
+@media only screen and (max-width: 450px) {
+    .questionbox {
+        padding: 20px;
+        margin: 10px;
+    }
+}
