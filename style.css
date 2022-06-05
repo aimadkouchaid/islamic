@@ -15,17 +15,17 @@
     background: #b8e7de;
 }
 .questionbox {
+    width: 100%;
     background: #16a085;
-    padding: 45px 65px;
+    padding: 40px 55px;
+    margin: 20px;
     border-radius: 20px;
     color: #fff;
-    display: grid;
-    align-items: center;
-    justify-content: center;
 }
 .qst {
     margin-bottom: 20px;
     font-size: 28px;
+    text-align: center;
 }
 button.btn {
     border: none;
