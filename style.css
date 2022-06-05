@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Vazirmatn', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #b8e7de;
+}
+.questionbox {
+    background: #16a085;
+    padding: 45px 65px;
+    border-radius: 20px;
+    color: #fff;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.qst {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+button.btn {
+    border: none;
+    outline: none;
+    background: #fff;
+    padding: 10px 0;
+    border-radius: 8px;
+    color: #16a085;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.3s;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 600px) {
+    .questionbox {
+        padding: 42px;
+    }
+}
