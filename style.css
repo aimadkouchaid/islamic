@@ -17,7 +17,7 @@
 .questionbox {
     width: 100%;
     background: #16a085;
-    padding: 40px 55px;
+    padding: 40px;
     margin: 20px;
     border-radius: 20px;
     color: #fff;
@@ -39,6 +39,7 @@ button.btn {
     cursor: pointer;
     opacity: 1;
     transition: 0.3s;
+    width: 100%;
 }
 .btn:hover {
     opacity: 0.8;
